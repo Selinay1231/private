@@ -1,4 +1,4 @@
-def generate_html(name):
+def generate_html(index):
     # HTML-Code für die Animation
     html_content = f"""
     <!DOCTYPE html>
@@ -30,7 +30,7 @@ def generate_html(name):
     """
 
     # HTML-Datei erstellen und öffnen
-    with open("happy_birthday.html", "w") as file:
+    with open("index.html", "w") as file:
         file.write(html_content)
 
     print("Happy Birthday HTML-Datei wurde erstellt und geöffnet.")
